@@ -8,6 +8,8 @@ from discord.ext import commands
 import os
 from dotenv import load_dotenv
 
+#test branch#
+
 load_dotenv('.env')
 bot = commands.Bot(command_prefix="!", intents = discord.Intents.default() )
 

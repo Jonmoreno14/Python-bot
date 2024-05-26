@@ -1,4 +1,4 @@
-from strsimpy.levenshtein import Levenshtein
+from difflib import SequenceMatcher
 import requests   
 from bs4 import BeautifulSoup  
 import re
@@ -8,7 +8,7 @@ from discord.ext import commands
 import os
 from dotenv import load_dotenv
 
-#test branch#
+#--------------test branch------------#
 
 load_dotenv('.env')
 bot = commands.Bot(command_prefix="!", intents = discord.Intents.default() )
@@ -24,6 +24,12 @@ async def on_ready():
 
 def returnLoop():
     cardSearchResult()
+    
+def spellChecker(firstName, secondName):
+    s = SequenceMatcher(None, firstName, "bcde")
+    url = 'https://dreamborn.ink/cards/%s/%s' % (firstName, secondName)
+    r = requests.get(url, timeout=10.000)
+    
     
 @bot.tree.command(name="cardsearch")
 @app_commands.describe(card_to_find = "Card to find?")

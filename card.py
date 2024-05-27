@@ -47,14 +47,6 @@ def spellChecker(fullName):
         #print(match)
     return True
     
-    '''print(fullName)
-    with open('card-list.txt') as myfile:
-        if fullName.lower() in myfile.read():
-            print('Found!')
-        else:
-            print("not found!")'''
-    
-    
 @bot.tree.command(name="cardsearch")
 @app_commands.describe(card_to_find = "Card to find?")
 async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
@@ -68,6 +60,8 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
     secondName = secondName[1:]
     
     
+    
+    # give results the spell corrected one IFFFF found  #
     async def results(firstName, secondName):
         #-------------------------------------#    
         firstNameLink = firstName.replace(" ","-")
@@ -101,10 +95,7 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
     else:
         print("spot 3")
     
-    
-    
-    
-       
+
 bot.run(os.getenv('TOKEN'))
 
 

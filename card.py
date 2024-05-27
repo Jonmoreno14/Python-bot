@@ -25,10 +25,34 @@ async def on_ready():
 def returnLoop():
     cardSearchResult()
     
-def spellChecker(firstName, secondName):
-    s = SequenceMatcher(None, firstName, "bcde")
-    url = 'https://dreamborn.ink/cards/%s/%s' % (firstName, secondName)
-    r = requests.get(url, timeout=10.000)
+def spellChecker(fullName):
+    isTrue = False
+    f = open('card-list.txt', 'r')
+    lines = f.readlines()
+    
+    def compare_strings(string1, string2):
+        if SequenceMatcher(None, string1, string2).ratio() >= 0.7:
+            print("success: " + fullName)
+            
+            return 
+            #go to new functioun to print out result.
+        else:
+            print("didnt find")
+            
+    for line in lines:
+        compare_strings(fullName,line.strip())            
+        #SequenceMatcher(None, string1, string1).ratio()
+        #pattern = re.compile(string2)
+        #match = re.search(pattern, string1)
+        #print(match)
+    return True
+    
+    '''print(fullName)
+    with open('card-list.txt') as myfile:
+        if fullName.lower() in myfile.read():
+            print('Found!')
+        else:
+            print("not found!")'''
     
     
 @bot.tree.command(name="cardsearch")
@@ -38,38 +62,48 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
     #---card has to be in [first name - second name] format
     #---splits the card into two names---#
     cardResult = userInput.split("-",1)
-    firstName = cardResult[0].replace(" ", "-")
-    if firstName[0] == '-':
-        firstName = firstName[1:]
-    if firstName[-1] == '-':
-        firstName = firstName[:-1]
+    firstName = cardResult[0]
+    firstName = firstName[:-1]
+    secondName = cardResult[1]
+    secondName = secondName[1:]
+    
+    
+    async def results(firstName, secondName):
+        #-------------------------------------#    
+        firstNameLink = firstName.replace(" ","-")
+        secondNameLink = secondName.replace(" ","-")
+        print(firstNameLink+"\n")
+        print(secondNameLink+" ")
+        url = 'https://dreamborn.ink/cards/%s/%s' % (firstNameLink,secondNameLink)
 
-    secondName = cardResult[1].replace(" ", "-")    
-    if secondName[0] == '-':
-        secondName = secondName[1:]
-    if secondName[-1] == '-':
-        secondName = secondName[:-1]
-    #-------------------------------------#    
-    url = 'https://dreamborn.ink/cards/%s/%s' % (firstName, secondName)
+        r = requests.get(url, timeout=10.000)
+        if r.status_code == 404:
+            await interaction.response.send_message(f"mispelled, try [card first name - card second name]")
+        else:
+            r.text
+            soup = BeautifulSoup(r.text,'html.parser')
+            tcgPrice = soup.findAll('div', class_="flex items-center justify-end")
+            array = [item.get_text() for item in soup.findAll('div', class_="flex items-center justify-end")]
+            newArr = [] #array with just prices
+            for i in array:
+                pattern = re.compile(r'\-?\d+\.\d+')
+                diffPrices = list(map(float, re.findall(pattern, i)))
+                newArr.append(diffPrices)
+                
+            if len(newArr) < 3:
+                await interaction.response.send_message(f"Non-foil price: {newArr[0]}\nFoil price: {newArr[1]} \n {url}")
+            elif len(newArr) > 2:
+                await interaction.response.send_message(f"Non-foil price: {newArr[0]}\nFoil price: {newArr[1]} \nEnchanted price: {newArr[2]} \n {url}")    
    
-    r = requests.get(url, timeout=10.000)
-    if r.status_code == 404:
-        interaction.response.send_message(f"mispelled try again")
+    fullName = str(firstName) + " - "+ str(secondName)
+    if spellChecker(fullName):
+        await results(firstName, secondName)
     else:
-        r.text
-        soup = BeautifulSoup(r.text,'html.parser')
-        tcgPrice = soup.findAll('div', class_="flex items-center justify-end")
-        array = [item.get_text() for item in soup.findAll('div', class_="flex items-center justify-end")]
-        newArr = [] #array with just prices
-        for i in array:
-            pattern = re.compile(r'\-?\d+\.\d+')
-            diffPrices = list(map(float, re.findall(pattern, i)))
-            newArr.append(diffPrices)
-            
-        if len(newArr) < 3:
-            await interaction.response.send_message(f"Non-foil price: {newArr[0]}\nFoil price: {newArr[1]} \n {url}")
-        elif len(newArr) > 2:
-            await interaction.response.send_message(f"Non-foil price: {newArr[0]}\nFoil price: {newArr[1]} \nEnchanted price: {newArr[2]} \n {url}")
+        print("spot 3")
+    
+    
+    
+    
        
 bot.run(os.getenv('TOKEN'))
 

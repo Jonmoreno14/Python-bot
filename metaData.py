@@ -24,9 +24,29 @@ def updateCardList():
     length = len(array)
     for i in range(length):
         #print(array[i])
-        cardList.write(str(array[i])+"\n")
+        cardList.write(str(array[i]).lower()+"\n")
     print("List updated!")
     
 updateCardList()
 cardList.close()
 
+
+def spellChecker(fullName):
+    print(fullName)
+    with open('card-list.txt') as myfile:
+        if fullName.lower() in myfile.read():
+            print('Found!')
+        else:
+            print("not found!")
+    
+    
+def compare_strings(string1, string2):
+    pattern = re.compile(string2)
+    match = re.search(pattern, string1)        
+            
+f = open('card-list.txt', 'r')
+lines = f.readlines()
+for line in lines:
+    compare_strings("ursula - deceiver of all",line.strip())
+
+spellChecker("Ursula - deceiver of all")

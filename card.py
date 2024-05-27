@@ -25,13 +25,15 @@ async def on_ready():
 def returnLoop():
     cardSearchResult()
     
+    
+    #get the string2 out of here.its the closest answer 
 def spellChecker(fullName):
     isTrue = False
     f = open('card-list.txt', 'r')
     lines = f.readlines()
     
     def compare_strings(string1, string2):
-        if SequenceMatcher(None, string1, string2).ratio() >= 0.7:
+        if SequenceMatcher(None, string1, string2).ratio() >= 0.85:
             print("success: " + fullName)
             
             return 
@@ -62,13 +64,14 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
     
     
     # give results the spell corrected one IFFFF found  #
+    #possibly accept the fullName to help the spell corect if found#
+    #add firstName and second together to compare to fullName, if diff#
     async def results(firstName, secondName):
         #-------------------------------------#    
         firstNameLink = firstName.replace(" ","-")
         secondNameLink = secondName.replace(" ","-")
-        print(firstNameLink+"\n")
-        print(secondNameLink+" ")
         url = 'https://dreamborn.ink/cards/%s/%s' % (firstNameLink,secondNameLink)
+        print(url)
 
         r = requests.get(url, timeout=10.000)
         if r.status_code == 404:

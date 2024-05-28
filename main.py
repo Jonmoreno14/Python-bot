@@ -117,7 +117,7 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
                     pattern = re.compile(r'\-?\d+\.\d+')
                     diffPrices = list(map(float, re.findall(pattern, i)))
                     newArr.append(str(diffPrices))
-                
+                            
                 #idk how to get rid of the brackets around the float, so i hard coded to remove... then need to turn back to float to#
                 #  help with the conversion to show euro prices as well#
                 

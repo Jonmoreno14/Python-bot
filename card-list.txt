@@ -1,0 +1,931 @@
+agustin madrigal - clumsy dad
+alma madrigal - family matriarch
+ariel - singing mermaid
+cinderella - melody weaver
+cogsworth - majordomo
+daisy duck - lovely lady
+daisy duck - musketeer spy
+donald duck - musketeer soldier
+félix madrigal - fun loving family man
+gaston - despicable dealer
+golden harp - enchanter of the land
+goofy - musketeer swordsman
+julieta madrigal - excellent cook
+max - loyal sheepdog
+mickey mouse - leader of the band
+mickey mouse - musketeer captain
+minnie mouse - musketeer champion
+mirabel madrigal - gift of the family
+mirabel madrigal - prophecy finder
+pluto - rescue dog
+prince eric - seafaring prince
+prince eric - ursula's groom
+stitch - alien dancer
+ursula - eric's bride
+ursula - vanessa
+bruno's return
+first aid
+look at this family
+lost in the woods
+sign the scroll
+miracle candle
+record player
+atlantica - concert hall
+the underworld - river styx
+antonio madrigal - animal expert
+belle - accomplished mystic
+belle - untrained mystic
+bruno madrigal - out of the shadows
+bruno madrigal - undetected uncle
+camilo madrigal - prankster
+dolores madrigal - easy listener
+elsa - storm chaser
+flotsam - ursula's "baby"
+flotsam & jetsam - entangling eels
+isabela madrigal - golden child
+jetsam - ursula's "baby"
+luisa madrigal - magically strong one
+magic broom - illuminary keeper
+magic broom - lively sweeper
+magical maid - feather duster
+marshmallow - terrifying snowman
+mrs. potts - enchanted teapot
+pepa madrigal - weather maker
+peter pan - shadow finder
+pico - helpful toucan
+tick tock - ever present pursuer
+ursula - mad sea witch
+ursula - sea witch queen
+yen sid - powerful sorcerer
+poor unfortunate souls
+second star to the right
+swing into action
+ursula's plan
+mystical rose
+rose lantern
+triton's trident
+casa madrigal - casita
+ursula's lair - eye of the storm
+cri kee - lucky cricket
+diablo - devoted herald
+diablo - maleficent's spy
+gunther - interior designer
+gus - champion of cheese
+hades - double dealer
+heihei - bumbling rooster
+hera - queen of the gods
+jaq - connoisseur of climbing
+jasmine - desert warrior
+megara - captivating cynic
+megara - liberated one
+pain - immortal sidekick
+panic - immortal sidekick
+pegasus - cloud racer
+pegasus - gift for hercules
+pete - born to cheat
+pete - rotten bad guy
+prince phillip - vanquisher of foes
+prince phillip - warden of the woods
+the fates - only one eye
+the muses - proclaimers of heroes
+tor - florist
+zeus - mr. lightning bolts
+dodge!
+make the potion
+under the sea
+ursula's trickery
+we don't talk about bruno
+hidden inkcaster
+signed contract
+vision slab
+hidden cove - tranquil haven
+ursula's garden - full of the unfortunate
+beast - wounded
+benja - bold uniter
+fa zhou - mulan's father
+flynn - frenemy
+goofy - super goof
+hercules - clumsy kid
+hercules - daring demigod
+khan - beloved steed
+li shang - general's son
+li shang - valorous general
+lumiere - fiery friend
+mulan - elite archer
+mulan - enemy of entanglement
+mulan - injured soldier
+namaari - heir of fang
+nessus - river guardian
+noi - acrobatic baby
+pegasus - flying steed
+raya - fierce protector
+raya - guardian of the dragon gem
+sisu - daring visitor
+sisu - emboldened warrior
+sisu - empowered sibling
+tong - survivor
+tuk tuk - lively partner
+a pirate's life
+be king undisputed
+brawl
+imperial proclamation
+medallion weights
+the plank
+vitalisphere
+snuggly duckling - disreputable pub
+training grounds - impossible plan
+anna - braving the storm
+anna - true hearted
+ariel - treasure collector
+aurora - lore guardian
+aurora - tranquil princess
+dang hu - talon chief
+fa li - mulan's mother
+flounder - collector's companion
+hades - meticulous plotter
+hans - noble scoundrel
+iduna - caring mother
+john silver - terror of the realm
+olaf - carrot enthusiast
+olaf - trusting companion
+pascal - inquisitive pet
+prince phillip - gallant defender
+rapunzel - appreciative artist
+scuttle - expert on humans
+sisu - wise friend
+the queen - diviner
+transformed chef - castle stove
+triton - champion of atlantica
+triton - discerning king
+triton - young prince
+tuk tuk - curious partner
+dig a little deeper
+glean
+seldom all they seem
+treasures untold
+field of ice
+great stone dragon
+ice block
+ariel's grotto - a secret place
+winter camp - medical tent
+aladdin - brave rescuer
+aladdin - resolute swordsman
+arges - the cyclops
+ariel - determined mermaid
+ariel - sonic warrior
+beast - thick skinned
+chi fu - imperial advisor
+chien po - imperial soldier
+donald duck - buccaneer
+hercules - beloved hero
+lefou - opportunistic flunky
+li shang - imperial captain
+ling - imperial soldier
+luisa madrigal - rock of the family
+magic broom - aerial cleaner
+magic broom - brigade commander
+mickey mouse - playful sorcerer
+mickey mouse - standard bearer
+mulan - armored fighter
+philoctetes - no nonsense instructor
+piglet - sturdy swordsman
+rajah - royal protector
+raya - unstoppable force
+yao - imperial soldier
+avalanche
+i find ’em, i flatten ’em
+one last hope
+the mob song
+triton's decree
+fortisphere
+imperial bow
+rls legacy's cannon
+the wall - border fortress
+thebes - the big olive
+cinderella - melody weaver
+minnie mouse - musketeer champion
+look at this family
+ursula - sea witch queen
+yen sid - powerful sorcerer
+second star to the right
+diablo - devoted herald
+jasmine - desert warrior
+we don't talk about bruno
+goofy - super goof
+sisu - empowered sibling
+snuggly duckling - disreputable pub
+anna - true hearted
+the queen - diviner
+ariel's grotto - a secret place
+ariel - sonic warrior
+piglet - sturdy swordsman
+the wall - border fortress
+ursula - ruler of lorcana
+captain hook - devious duelist
+tentacle swipe
+ursula's contract
+piglet - pooh pirate captain
+yen sid - powerful sorcerer
+mulan - elite archer
+mickey mouse - playful sorcerer
+baloo - von bruinwald xiii
+bernard - brand new agent
+chernabog - evildoer
+dalmatian puppy - tail wagger
+dalmatian puppy - tail wagger
+dalmatian puppy - tail wagger
+dalmatian puppy - tail wagger
+dalmatian puppy - tail wagger
+joshua sweet - the doctor
+kida - atlantean
+kida - protector of atlantis
+lucky - the 15th puppy
+minnie mouse - musical artist
+miss bianca - rescue aid society agent
+mr. snoops - inept businessman
+nani - protective sister
+orville - ace pilot
+patch - intimidating pup
+perdita - devoted mother
+piglet - pooh pirate captain
+pluto - determined defender
+pluto - friendly pooch
+pongo - determined father
+queen of hearts - wonderland empress
+rolly - hungry pup
+tinker bell - generous fairy
+wendy darling - talented sailor
+99 puppies
+boss's orders
+heal what has been hurt
+quick patch
+the bare necessities
+cleansing rainwater
+heart of atlantis
+wildcat's wrench
+never land - mermaid lagoon
+pride lands - pride rock
+tiana's palace - jazz restaurant
+alice - tea alchemist
+chernabog's followers - creatures of evil
+diablo - faithful familiar
+genie - supportive friend
+hydros - ice titan
+iago - pretty polly
+jafar - lamp thief
+jafar - striking illusionist
+lena darkwing - rebellious teenager
+magic broom - dancing duster
+magic broom - swift cleaner
+magic broom - the big sweeper
+magic carpet - the flying rug
+magica de spell - ambitious witch
+magica de spell - midas touch
+magica de spell - thieving sorceress
+maleficent - mistress of all evil
+mama odie - voice of wisdom
+pua - potbellied buddy
+rafiki - mystical fighter
+stratos - tornado titan
+the firebird - force of destruction
+the queen - hateful rival
+treasure guardian - protector of the cave
+ursula - sea witch
+bestow a gift
+it calls me
+last ditch effort
+the boss is on a roll
+the lamp 
+the sorcerer's hat
+forbidden mountain - maleficent's castle
+the queen's castle - mirror chamber
+the sorcerer's tower - wondrous workplace
+cubby - mighty lost boy
+cursed merfolk - ursula's handiwork
+don karnage - prince of pirates
+flotsam - riffraff
+friar tuck - priest of nottingham
+helga sinclair - femme fatale
+helga sinclair - vengeful partner
+jetsam - riffraff
+kit cloudkicker - tough guy
+lyle tiberius rourke - cunning mercenary
+milo thatch - clever cartographer
+milo thatch - king of atlantis
+morph - space goo
+peter pan - lost boy leader
+prince john - phony king
+robin hood - daydreamer
+shenzi - hyena pack leader
+sir hiss - aggravating asp
+skippy - energetic rabbit
+starkey - devious pirate
+stitch - covert agent
+ursula - deceiver
+ursula - deceiver of all
+wildcat - mechanic
+zazu - steward of the pride lands
+has set my heaaaaaaart . . .
+i will find my way
+strike a good match
+airfoil
+robin's bow
+starlight vial
+de vil manor - cruella's estate
+fang - river city
+kuzco's palace - home of the emperor
+ariel - adventurous collector
+billy bones - keeper of the map
+captain hook - master swordsman
+della duck - unstoppable mum
+heihei - accidental explorer
+hydra - deadly serpent
+jim hawkins - space traveler
+jim hawkins - thrill seeker
+kakamora - menacing sailor
+madame medusa - the boss
+maui - soaring demigod
+maui - whale
+milo thatch - spirited scholar
+moana - born leader
+moana - undeterred voyager
+nutsy - vulture henchman
+peter pan - never land hero
+peter pan - pirate's bane
+prince eric - expert helmsman
+scroop - backstabber
+simba - scrappy cub
+slightly - lost boy
+stitch - little rocket
+trigger - not so sharp shooter
+webby vanderquack - enthusiastic duck
+divebomb
+i've got a dream
+on your feet! now!
+voyage
+maui's fish hook
+sumerian talisman
+agrabah - marketplace
+jolly roger - hook's ship
+rls legacy - solar galleon
+audrey ramirez - the engineer
+captain amelia - first in command
+dewey - showy nephew
+flintheart glomgold - lone cheater
+genie - cramped in the lamp
+gramma tala - keeper of ancient stories
+gramma tala - spirit of the ocean
+gyro gearloose - gadget whiz
+huey - savvy nephew
+king louie - bandleader
+kit cloudkicker - navigator
+kit cloudkicker - spunky bear cub
+louie - chill nephew
+maid marian - delightful dreamer
+mama odie - mystical maven
+pluto - mickey's clever friend
+rufus - orphanage cat
+scrooge mcduck - richest duck in the world
+scrooge mcduck - uncle moneybags
+the queen - mirror seeker
+tinker bell - very clever fairy
+wendy darling - authority on peter pan
+distract
+friend like me
+how far i'll go
+repair
+aurelian gyrosensor
+heart of te fiti
+lucky dime
+scrooge's top hat
+vault door
+belle's house - maurice's workshop
+mcduck manor - scrooge's mansion
+motunui - island paradise
+chief tui - proud of motunui
+eeyore - overstuffed donkey
+gustav the giant - terror of the kingdom
+hades - hotheaded ruler
+helga sinclair - right hand woman
+john silver - greedy treasure seeker
+kida - royal warrior
+little john - resourceful outlaw
+little john - robin's pal
+lythos - rock titan
+mickey mouse - stalwart explorer
+mickey mouse - trumpeter
+minnie mouse - funky spelunker
+mr smee - bumbling mate
+mufasa - champion of the pride lands
+nala - fierce friend
+pyros - lava titan
+razoul - palace guard
+robin hood - beloved outlaw
+robin hood - champion of sherwood
+sheriff of nottingham - corrupt official
+simba - fighting prince
+simba - rightful king
+thaddeus e. klang - metallic leader
+and then along came zeus
+ba boom!
+olympus would be that way
+rise of the titans
+captain hook's rapier
+gizmosuit
+map of treasure planet
+maui's place of exile - hidden island
+nottingham - prince john's castle
+the bayou - mysterious swamp
+chernabog - evildoer
+kida - protector of atlantis
+pride lands - pride rock
+jafar - striking illusionist
+maleficent - mistress of all evil
+the sorcerer's hat
+morph - space goo
+ursula - deceiver of all
+kuzco's palace - home of the emperor
+captain hook - master swordsman
+peter pan - pirate's bane
+rls legacy - solar galleon
+gramma tala - spirit of the ocean
+scrooge mcduck - richest duck in the world
+belle's house - maurice's workshop
+mickey mouse - trumpeter
+robin hood - champion of sherwood
+and then along came zeus
+bashful - hopeless romantic
+christopher robin - adventurer
+cinderella - ballroom sensation
+cobra bubbles - just a social worker
+doc - leader of the seven dwarfs
+dopey - always playful
+eudora - accomplished seamstress
+gaston - baritone bully
+grand duke - advisor to the king
+grumpy - bad tempered
+happy - good natured
+king louie - jungle vip
+mickey mouse - friendly face
+mufasa - betrayed leader
+mulan - free spirit
+mulan - reflecting
+nana - darling family pet
+piglet - very small animal
+rapunzel - gifted artist
+rapunzel - sunshine
+sleepy - nodding off
+sneezy - very allergic
+snow white - lost in the forest
+snow white - unexpected houseguest
+snow white - well wisher
+the queen - commanding presence
+the queen - regal monarch
+hold still
+last stand
+painting the roses red
+world's greatest criminal mind
+zero to hero
+dragon gem
+sleepy's flute
+arthur - wizard's apprentice
+blue fairy - rewarding good deeds
+chip the teacup - gentle soul
+dr. facilier - savvy opportunist
+elsa - gloves off
+fairy godmother - here to help
+fairy godmother - mystic armorer
+fairy godmother - pure heart
+heihei - persistent presence
+jiminy cricket - pinocchio’s conscience
+kuzco - wanted llama
+madam mim - fox
+madam mim - purple dragon
+madam mim - rival of merlin
+madam mim - snake
+merlin - crab
+merlin - goat
+merlin - rabbit
+merlin - shapeshifter
+merlin - squirrel
+peter pan's shadow - not sewn on
+pinocchio - star attraction
+pinocchio - on the run
+pinocchio - talkative puppet
+winnie the pooh - hunny wizard
+yzma - scary beyond all reason
+yzma - without beauty sleep
+gruesome and grim
+i'm stuck
+legend of the sword in the stone
+binding contract
+croquet mallet
+perplexing signposts
+the sorcerer's spellbook
+arthur - trained swordsman
+beast - relentless
+belle - bookworm
+belle - hidden archer
+bucky - squirrel squeak tutor
+cheshire cat - always grinning
+cheshire cat - from the shadows
+daisy duck - secret agent
+donald duck - perfect gentleman
+donald duck - sleepwalker
+dr. facilier - fortune teller
+enchantress - unexpected judge
+flynn rider - confident vagabond
+flynn rider - his own biggest fan
+gaston - scheming suitor
+little john - loyal friend
+lucifer - cunning cat
+pain - underworld imp
+panic - underworld imp
+pete - bad guy
+prince john - greediest of all
+queen of hearts - quick tempered
+ratigan - criminal mastermind
+ray - easygoing firefly
+the queen - disguised peddler
+tiana - true princess
+virana - fang chief
+bibbidi bobbidi boo
+bounce
+hypnotize
+improvise
+pack tactics
+ring the bell
+ratigan's marvelous trap
+baloo - fun-loving bear
+boun - precocious entrepreneur
+card soldiers - full deck
+donald duck - not again!
+felicia - always hungry
+fidget - ratigan’s henchman
+honest john - not that honest
+lady tremaine - imperious queen
+lady tremaine - overbearing matriarch
+lumiere - hotheaded candelabra
+minnie mouse - stylish surfer
+minnie mouse - wide eyed diver
+minnie mouse - zipping around
+mother gothel - withered and wicked
+mulan - soldier in training
+namaari - nemesis
+queen of hearts - impulsive ruler
+queen of hearts - sensing weakness
+ratigan - very large mouse
+raya - headstrong
+raya - leader of heart
+raya - warrior of kumandra
+scar - vicious cheater
+shere khan - menacing predator
+tigger - one of a kind
+tuk tuk - wrecking ball
+go the distance
+teeth and ambitions
+the most diabolical scheme
+what did you call me?
+you can fly!
+dinner bell
+peter pan's dagger
+sword in the stone
+alice - growing girl
+basil - great mouse detective
+basil - of baker street
+basil - perceptive investigator
+caterpillar - calm and collected
+cogsworth - grandfather clock
+cogsworth - talking clock
+cruella de vil - fashionable cruiser
+cruella de vil - perfectly wretched
+duke weaselton - small time crook
+gaston - intellectual powerhouse
+grand pabbie - oldest and the wisest
+hiram flaversham - toymaker
+james - role model
+jasmine - heir of agrabah
+judy hopps - optimistic officer
+mrs. judson - housekeeper
+nick wilde - wily fox
+noi - orphaned thief
+owl - logical lecturer
+prince charming - heir to the throne
+rabbit - reluctant host
+sisu - divine water dragon
+the nokk - water spirit
+winnie the pooh - having a think
+falling down the rabbit hole
+four dozen eggs
+launch
+nothing to hide
+fang crossbow
+gumbo pot
+maurice's workshop
+pawpsicle
+sardine can
+beast - forbidding recluse
+beast - selfless protector
+beast - tragic hero
+benja - guardian of the dragon gem
+chief bogo - respected officer
+cinderella - knight in training
+cinderella - stouthearted
+donald duck - deep sea diver
+eli la bouff - big daddy
+goofy - knight for a day
+hercules - divine hero
+hercules - hero in training
+jafar - dreadnought
+jafar - royal vizier
+kronk - junior chipmunk
+lawrence - jealous manservant
+li shang - archery instructor
+magic broom - industrial model
+namaari - morning mist
+pacha - village leader
+prince naveen - penniless royal
+queen of hearts - capricious monarch
+robin hood - capable fighter
+the huntsman - reluctant enforcer
+the prince - never gives up
+tiana - celebrating princess
+tiana - diligent waitress
+charge!
+let the storm rage on
+pick a fight
+strength of a raging fire
+last cannon
+mouse armor
+weight set
+cinderella - ballroom sensation
+snow white - well wisher
+arthur - wizard's apprentice
+madam mim - purple dragon
+pete - bad guy
+beast - relentless
+lady tremaine - imperious queen
+shere khan - menacing predator
+alice - growing girl
+sisu - divine water dragon
+hercules - divine hero
+namaari - morning mist
+ariel - on human legs
+ariel - spectacular singer
+cinderella - gentle and kind
+goofy - musketeer
+hades - king of olympus
+hades - lord of the underworld
+heihei - boat snack
+lefou - bumbler
+lilo - making a wish
+maximus - palace horse
+maximus - relentless pursuer
+mickey mouse - true friend
+minnie mouse - beloved princess
+moana - of motunui
+mr. smee - loyal first mate
+prince phillip - dragonslayer
+pumbaa - friendly warthog
+rapunzel - gifted with healing
+sebastian - court composer
+simba - protective cub
+stitch - carefree surfer
+stitch - new dog
+stitch - rock star
+timon - grub rustler
+be our guest
+control your temper!
+hakuna matata
+healing glow
+just in time
+part of your world
+you have forgotten me
+dinglehopper
+lantern
+ursula's shell necklace
+anna - heir to arendelle
+archimedes - highly educated owl
+dr. facilier - agent provocateur
+dr. facilier - charlatan
+dr. facilier - remarkable gentleman
+elsa - queen regent
+elsa - snow queen
+elsa - spirit of winter
+flotsam - ursula's spy
+jafar - keeper of secrets
+jafar - wicked sorcerer
+jetsam - ursula's spy
+magic broom - bucket brigade
+maleficent - biding her time
+maleficent - sorceress
+marshmallow - persistent guardian
+mickey mouse - wayward sorcerer
+olaf - friendly snowman
+pascal - rapunzel's companion
+rafiki - mysterious sage
+sven - official ice deliverer
+the queen - wicked and vain
+the wardrobe - belle's confidant
+tinker bell - peter pan's ally
+ursula - power hungry
+yzma - alchemist
+zeus - god of lightning
+befuddle
+freeze
+friends on the other side
+reflection
+magic mirror
+ursula's cauldron
+white rabbit's pocket watch
+aladdin - prince ali
+beast - wolfsbane
+cheshire cat - not all there
+cruella de vil - miserable as usual
+duke of weselton - opportunistic official
+flynn rider - charming rogue
+genie - on the job
+genie - powers unleashed
+genie - the ever impressive
+hans - scheming prince
+horace - no good scoundrel
+iago - loud mouthed parrot
+jasper - common crook
+john silver - alien pirate
+jumba jookiba - renegade scientist
+kuzco - temperamental emperor
+lady tremaine - wicked stepmother
+mad hatter - gracious host
+megara - pulling the strings
+mickey mouse - artful rogue
+mickey mouse - steamboat pilot
+mother gothel - selfish manipulator
+peter pan - never landing
+tamatoa - drab little crab
+tinker bell - most helpful
+do it again!
+mother knows best
+stampede
+steal from the rich
+sudden chill
+the beast is mine!
+vicious betrayal
+dr. facilier's cards
+stolen scimitar
+abu - mischievous monkey
+aladdin - heroic outlaw
+aladdin - street rat
+captain - colonel's lieutenant
+captain hook - ruthless pirate
+donald duck - boisterous fowl
+elsa - ice surfer
+gaston - arrogant hunter
+goofy - daredevil
+lefou - instigator
+maleficent - monstrous dragon
+maui - hero to all
+mickey mouse - brave little tailor
+minnie mouse - always classy
+moana - chosen by the ocean
+mulan - imperial soldier
+peter pan - fearless fighter
+pongo - ol' rascal
+rapunzel - letting down her hair
+scar - fiery usurper
+scar - shameless firebrand
+sergeant tibbs - courageous cat
+stitch - abomination
+te kā - the burning one
+tigger - wonderful thing
+be prepared
+cut to the chase
+dragon fire
+fan the flames
+he's got a sword!
+tangle
+poisoned apple
+shield of virtue
+sword of truth
+ariel - whoseit collector
+aurora - briar rose
+aurora - dreaming guardian
+aurora - regal princess
+belle - inventive engineer
+belle - strange but special
+chief tui - respected leader
+donald duck - strutting his stuff
+flounder - voice of reason
+gramma tala - storyteller
+hades - infernal schemer
+jasmine - disguised
+jasmine - queen of agrabah
+maleficent - sinister visitor
+maleficent - uninvited
+maurice - world famous inventor
+merlin - self appointed mentor
+mickey mouse - detective
+mufasa - king of the pride lands
+philoctetes - trainer of heroes
+robin hood - unrivaled archer
+scar - mastermind
+tamatoa - so shiny!
+triton - the sea king
+develop your brain
+if it's not baroque
+let it go
+one jump ahead
+work together
+coconut basket
+eye of the fates
+fishbone quill
+magic golden flower
+scepter of arendelle
+aladdin - cornered swordsman
+beast - hardheaded
+captain hook - captain of the jolly roger
+captain hook - forceful duelist
+captain hook - thinking a happy thought
+cerberus - three headed dog
+donald duck - musketeer
+gantu - federation captain
+goons - maleficent's underlings
+hans - thirteenth in line
+hercules - true hero
+kristoff - official ice master
+kronk - right hand man
+lilo - galactic hero
+maui - demigod
+mickey mouse - musketeer
+prince eric - dashing and brave
+simba - future king
+simba - returned king
+simba - rightful heir
+starkey - hook's henchman
+te kā - heartless
+tinker bell - giant fairy
+tinker bell - tiny tactician
+a whole new world
+break
+fire the cannons!
+grab your sword
+ransack
+smash
+beast's mirror
+frying pan
+musketeer tabard
+plasma blaster
+hades - king of olympus
+stitch - carefree surfer
+elsa - spirit of winter
+mickey mouse - wayward sorcerer
+genie - on the job
+mickey mouse - artful rogue
+aladdin - heroic outlaw
+maui - hero to all
+aurora - dreaming guardian
+belle - strange but special
+simba - returned king
+tinker bell - giant fairy
+mickey mouse - brave little tailor
+stitch - rock star
+elsa - snow queen
+cruella de vil - miserable as usual
+maleficent - monstrous dragon
+robin hood - unrivaled archer
+captain hook - forceful duelist
+mickey mouse - detective
+heihei - boat snack
+yzma - alchemist
+mickey mouse - musketeer
+goofy - musketeer
+donald duck - musketeer
+cinderella - knight in training
+bucky - squirrel squeak tutor
+minnie mouse - wide eyed diver
+robin hood - capable fighter
+mickey mouse - friendly face
+elsa - gloves off
+genie - powers unleashed
+stitch - abomination
+maleficent - uninvited
+maui - demigod
+gaston - arrogant hunter
+dragon fire
+kit cloudkicker - tough guy
+jolly roger - hook's ship
+how far i'll go
+john silver - greedy treasure seeker
+stitch - rock star
+rapunzel - gifted artist
+pinocchio - talkative puppet
+four dozen eggs
+mickey mouse - leader of the band
+ursula's lair - eye of the storm
+hidden inkcaster
+mulan - enemy of entanglement
+ursula - sea witch queen
+scrooge mcduck - uncle moneybags
+flotsam & jetsam - entangling eels
+let it go
+cinderella - stouthearted
+rapunzel - gifted with healing

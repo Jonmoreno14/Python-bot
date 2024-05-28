@@ -13,9 +13,13 @@ from dotenv import load_dotenv
 
 # add auto updater function to this code, or just access the otehr file.#
 
-# current issue; after it successfully finds, it needs to restart the loop, but its continuing. need to reset loop#
 
 #  delimeter _-_ space in front/back of hyphen possibly.... #
+
+
+class prettyfloat(float):
+    def __repr__(self):
+        return "%0.2f" % self
 
 load_dotenv('.env')
 bot = commands.Bot(command_prefix="!", intents = discord.Intents.default() )
@@ -112,12 +116,28 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
                 for i in array:
                     pattern = re.compile(r'\-?\d+\.\d+')
                     diffPrices = list(map(float, re.findall(pattern, i)))
-                    newArr.append(diffPrices)
-                    
+                    newArr.append(str(diffPrices))
+                
+                #idk how to get rid of the brackets around the float, so i hard coded to remove... then need to turn back to float to#
+                #  help with the conversion to show euro prices as well#
+                
+                #p# = price
+                p1 = newArr[0]
+                p1 = p1[1:]
+                p1 = p1[:-1]
+                p2 = newArr[1]
+                p2 = p2[1:]
+                p2 = p2[:-1]
+                p1 = float(p1)
+                p2 = float(p2)
                 if len(newArr) < 3:
-                    await interaction.response.send_message(f"Non-foil price: ${newArr[0]}\nFoil price: ${newArr[1]} \n {url}")
+                    await interaction.response.send_message(f"Non-foil price: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\nFoil price: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \n {url}")
                 elif len(newArr) > 2:
-                    await interaction.response.send_message(f"Non-foil price: ${newArr[0]}\nFoil price: ${newArr[1]} \nEnchanted price: ${newArr[2]} \n {url}")    
+                    p3 = newArr[1]
+                    p3 = p3[1:]
+                    p3 = p3[:-1]
+                    p3 = float(p3)
+                    await interaction.response.send_message(f"Non-foil price: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\nFoil price: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \nEnchanted price: ${"%.2f" % p3},   €{"%.2f" % (p3*(0.92))} \n {url}")    
         await results(foundName)
     else:
         cardList.seek(0)

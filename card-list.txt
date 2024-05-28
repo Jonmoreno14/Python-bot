@@ -6,7 +6,7 @@ cogsworth - majordomo
 daisy duck - lovely lady
 daisy duck - musketeer spy
 donald duck - musketeer soldier
-félix madrigal - fun-loving family man
+félix madrigal - fun loving family man
 gaston - despicable dealer
 golden harp - enchanter of the land
 goofy - musketeer swordsman
@@ -53,7 +53,7 @@ mrs. potts - enchanted teapot
 pepa madrigal - weather maker
 peter pan - shadow finder
 pico - helpful toucan
-tick-tock - ever-present pursuer
+tick tock - ever present pursuer
 ursula - mad sea witch
 ursula - sea witch queen
 yen sid - powerful sorcerer
@@ -66,7 +66,7 @@ rose lantern
 triton's trident
 casa madrigal - casita
 ursula's lair - eye of the storm
-cri-kee - lucky cricket
+cri kee - lucky cricket
 diablo - devoted herald
 diablo - maleficent's spy
 gunther - interior designer
@@ -135,7 +135,7 @@ vitalisphere
 snuggly duckling - disreputable pub
 training grounds - impossible plan
 anna - braving the storm
-anna - true-hearted
+anna - true hearted
 ariel - treasure collector
 aurora - lore guardian
 aurora - tranquil princess
@@ -173,9 +173,9 @@ aladdin - resolute swordsman
 arges - the cyclops
 ariel - determined mermaid
 ariel - sonic warrior
-beast - thick-skinned
-chi-fu - imperial advisor
-chien-po - imperial soldier
+beast - thick skinned
+chi fu - imperial advisor
+chien po - imperial soldier
 donald duck - buccaneer
 hercules - beloved hero
 lefou - opportunistic flunky
@@ -187,7 +187,7 @@ magic broom - brigade commander
 mickey mouse - playful sorcerer
 mickey mouse - standard bearer
 mulan - armored fighter
-philoctetes - no-nonsense instructor
+philoctetes - no nonsense instructor
 piglet - sturdy swordsman
 rajah - royal protector
 raya - unstoppable force
@@ -214,7 +214,7 @@ we don't talk about bruno
 goofy - super goof
 sisu - empowered sibling
 snuggly duckling - disreputable pub
-anna - true-hearted
+anna - true hearted
 the queen - diviner
 ariel's grotto - a secret place
 ariel - sonic warrior
@@ -229,7 +229,7 @@ yen sid - powerful sorcerer
 mulan - elite archer
 mickey mouse - playful sorcerer
 baloo - von bruinwald xiii
-bernard - brand-new agent
+bernard - brand new agent
 chernabog - evildoer
 dalmatian puppy - tail wagger
 dalmatian puppy - tail wagger
@@ -293,7 +293,7 @@ treasure guardian - protector of the cave
 ursula - sea witch
 bestow a gift
 it calls me
-last-ditch effort
+last ditch effort
 the boss is on a roll
 the lamp 
 the sorcerer's hat
@@ -357,7 +357,7 @@ scroop - backstabber
 simba - scrappy cub
 slightly - lost boy
 stitch - little rocket
-trigger - not-so-sharp shooter
+trigger - not so sharp shooter
 webby vanderquack - enthusiastic duck
 divebomb
 i've got a dream
@@ -406,7 +406,7 @@ chief tui - proud of motunui
 eeyore - overstuffed donkey
 gustav the giant - terror of the kingdom
 hades - hotheaded ruler
-helga sinclair - right-hand woman
+helga sinclair - right hand woman
 john silver - greedy treasure seeker
 kida - royal warrior
 little john - resourceful outlaw
@@ -427,7 +427,7 @@ simba - fighting prince
 simba - rightful king
 thaddeus e. klang - metallic leader
 and then along came zeus
-ba-boom!
+ba boom!
 olympus would be that way
 rise of the titans
 captain hook's rapier
@@ -463,8 +463,8 @@ dopey - always playful
 eudora - accomplished seamstress
 gaston - baritone bully
 grand duke - advisor to the king
-grumpy - bad-tempered
-happy - good-natured
+grumpy - bad tempered
+happy - good natured
 king louie - jungle vip
 mickey mouse - friendly face
 mufasa - betrayed leader
@@ -543,7 +543,7 @@ pain - underworld imp
 panic - underworld imp
 pete - bad guy
 prince john - greediest of all
-queen of hearts - quick-tempered
+queen of hearts - quick tempered
 ratigan - criminal mastermind
 ray - easygoing firefly
 the queen - disguised peddler
@@ -567,7 +567,7 @@ lady tremaine - imperious queen
 lady tremaine - overbearing matriarch
 lumiere - hotheaded candelabra
 minnie mouse - stylish surfer
-minnie mouse - wide-eyed diver
+minnie mouse - wide eyed diver
 minnie mouse - zipping around
 mother gothel - withered and wicked
 mulan - soldier in training
@@ -599,7 +599,7 @@ cogsworth - grandfather clock
 cogsworth - talking clock
 cruella de vil - fashionable cruiser
 cruella de vil - perfectly wretched
-duke weaselton - small-time crook
+duke weaselton - small time crook
 gaston - intellectual powerhouse
 grand pabbie - oldest and the wisest
 hiram flaversham - toymaker
@@ -631,7 +631,7 @@ benja - guardian of the dragon gem
 chief bogo - respected officer
 cinderella - knight in training
 cinderella - stouthearted
-donald duck - deep-sea diver
+donald duck - deep sea diver
 eli la bouff - big daddy
 goofy - knight for a day
 hercules - divine hero
@@ -748,8 +748,8 @@ genie - on the job
 genie - powers unleashed
 genie - the ever impressive
 hans - scheming prince
-horace - no-good scoundrel
-iago - loud-mouthed parrot
+horace - no good scoundrel
+iago - loud mouthed parrot
 jasper - common crook
 john silver - alien pirate
 jumba jookiba - renegade scientist
@@ -821,8 +821,8 @@ jasmine - disguised
 jasmine - queen of agrabah
 maleficent - sinister visitor
 maleficent - uninvited
-maurice - world-famous inventor
-merlin - self-appointed mentor
+maurice - world famous inventor
+merlin - self appointed mentor
 mickey mouse - detective
 mufasa - king of the pride lands
 philoctetes - trainer of heroes
@@ -845,14 +845,14 @@ beast - hardheaded
 captain hook - captain of the jolly roger
 captain hook - forceful duelist
 captain hook - thinking a happy thought
-cerberus - three-headed dog
+cerberus - three headed dog
 donald duck - musketeer
 gantu - federation captain
 goons - maleficent's underlings
 hans - thirteenth in line
 hercules - true hero
 kristoff - official ice master
-kronk - right-hand man
+kronk - right hand man
 lilo - galactic hero
 maui - demigod
 mickey mouse - musketeer
@@ -901,7 +901,7 @@ goofy - musketeer
 donald duck - musketeer
 cinderella - knight in training
 bucky - squirrel squeak tutor
-minnie mouse - wide-eyed diver
+minnie mouse - wide eyed diver
 robin hood - capable fighter
 mickey mouse - friendly face
 elsa - gloves off

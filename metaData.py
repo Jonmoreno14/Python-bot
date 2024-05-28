@@ -23,7 +23,9 @@ def updateCardList():
     array = [item.get_text() for item in soup.findAll('td', class_="card-name")]
     length = len(array)
     for i in range(length):
-        #print(array[i])
+        #write exception for hyphenated names!! next session
+        #if it has two hyphens in string, indicator of 
+        # if (str(array[i]).lower()).count("-")
         cardList.write(str(array[i]).lower()+"\n")
     print("List updated!")
     

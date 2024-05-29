@@ -70,19 +70,20 @@ def compare_strings(cardFullName, nameInList):
 @app_commands.describe(card_to_find = "first name - second name")
 async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
     userInput = card_to_find
-    global cardFullName #inputed by user
-    global firstName
-    global secondName
-    #---card has to be in [first name - second name] format
-    #---splits the card into two names---#
-    cardFullName = userInput.split("-",1)
-    firstName = cardFullName[0]
-    firstName = firstName[:-1]
     
     if compare_strings(userInput, "Ursula - deceiver of all"):
         
         async def results(finalName):
             #------------name----to-----link-----------------#   
+           
+            nameToLink = foundName.replace(" ","-")
+            url = 'https://lorcanaplayer.com/lorcana-card-list/%s' % (nameToLink)
+            print(foundName)
+            print(url)
+            globalLineCount = 0
+            #------------name----to-----link-----------------# 
+            
+            
             cardFullName = foundName.split("-",1)
             firstName = cardFullName[0]
             #firstName = firstName[:-1]
@@ -94,34 +95,35 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
                 secondName = secondName[1:]
                 firstNameLink = firstName.replace(" ","-")
                 secondNameLink = secondName.replace(" ","-")
-                url = 'https://dreamborn.ink/cards/%s/%s' % (firstNameLink,secondNameLink)
+                url = 'https://lorcanaplayer.com/lorcana-card-list/%s-%s' % (firstNameLink,secondNameLink)
+            elif len(cardFullName) ==0:
+                url = 'https://lorcanaplayer.com/lorcana-card-list/%s' % (nameToLink)
             else:
                 firstNameLink = firstName.replace(" ","-")
-                url = 'https://dreamborn.ink/cards/%s' % (firstNameLink)
-            print(foundName)
-            print(url)
-            globalLineCount = 0
-            #------------name----to-----link-----------------# 
+                url = 'https://lorcanaplayer.com/lorcana-card-list/%s' % (nameToLink)
             
+            
+            #----------get--the--prices----------------------#
+            print(url) ##problem
             r = requests.get(url, timeout=10.000)
+           
             if r.status_code == 404:
                 await interaction.response.send_message(f"mispelled, try [card first name - card second name]")
+                print("issue here")
                 cardList.seek(0)
                 
             else:
                 r.text
                 soup = BeautifulSoup(r.text,'html.parser')
-                array = [item.get_text() for item in soup.findAll('div', class_="flex items-center justify-end")]
+                array = [item.get_text() for item in soup.findAll('span', class_="btn-price")]
                 newArr = [] #array with just prices
                 for i in array:
                     pattern = re.compile(r'\-?\d+\.\d+')
                     diffPrices = list(map(float, re.findall(pattern, i)))
                     newArr.append(str(diffPrices))
                             
-                #idk how to get rid of the brackets around the float, so i hard coded to remove... then need to turn back to float to#
-                #  help with the conversion to show euro prices as well#
-                
-                #p# = price
+                print(array)
+                print(newArr)
                 p1 = newArr[0]
                 p1 = p1[1:]
                 p1 = p1[:-1]
@@ -130,14 +132,9 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
                 p2 = p2[:-1]
                 p1 = float(p1)
                 p2 = float(p2)
-                if len(newArr) < 3:
-                    await interaction.response.send_message(f"Non-foil price: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\nFoil price: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \n {url}")
-                elif len(newArr) > 2:
-                    p3 = newArr[1]
-                    p3 = p3[1:]
-                    p3 = p3[:-1]
-                    p3 = float(p3)
-                    await interaction.response.send_message(f"Non-foil price: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\nFoil price: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \nEnchanted price: ${"%.2f" % p3},   €{"%.2f" % (p3*(0.92))} \n {url}")    
+                
+                await interaction.response.send_message(f"[Non-foil price]: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\n[Foil price]: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \n {url}")
+        
         await results(foundName)
     else:
         cardList.seek(0)

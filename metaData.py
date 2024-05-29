@@ -11,6 +11,9 @@ import pandas as pd
 import re
 import json
 
+# test zone to move to main soon#
+
+
 url = 'https://lorcanaplayer.com/lorcana-card-list/'
    
 r = requests.get(url, timeout=10.000)
@@ -21,15 +24,12 @@ cardList = open("card-list.txt","w")
 
 
 def updateCardList():
-    cardNameFinder = soup.findAll('body'[2], class_="card-name" )
+    cardNameFinder = soup.findAll('body', class_="card-name" )
     print(cardNameFinder)
     #soup.find_all('p')[2].get_text()
     array = [item.get_text() for item in soup.findAll('td', class_="card-name")]
     length = len(array)
     for i in range(length):
-        #write exception for hyphenated names!! next session
-        #if it has two hyphens in string, indicator of 
-        # if (str(array[i]).lower()).count("-")
         cardList.write(str(array[i]).lower()+"\n")
     print("List updated!")
     

@@ -18,8 +18,12 @@ r.text
 soup = BeautifulSoup(r.text,'html.parser')
 cardList = open("card-list.txt","w")
 
+
+
 def updateCardList():
-    cardNameFinder = soup.findAll('body', class_="card-name" )
+    cardNameFinder = soup.findAll('body'[2], class_="card-name" )
+    print(cardNameFinder)
+    #soup.find_all('p')[2].get_text()
     array = [item.get_text() for item in soup.findAll('td', class_="card-name")]
     length = len(array)
     for i in range(length):

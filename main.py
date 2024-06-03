@@ -104,36 +104,27 @@ async def cardSearchResult(interaction: discord.Interaction, card_to_find: str):
             
             
             #----------get--the--prices----------------------#
-            print(url) ##problem
-            r = requests.get(url, timeout=10.000)
+            page = requests.get(url)
+            soup = BeautifulSoup(page.text, "html.parser")
+            prices = []
            
-            if r.status_code == 404:
+            if soup.title.text == "404 Not Found":
                 await interaction.response.send_message(f"mispelled, try [card first name - card second name]")
                 print("issue here")
                 cardList.seek(0)
                 
             else:
-                r.text
-                soup = BeautifulSoup(r.text,'html.parser')
-                array = [item.get_text() for item in soup.findAll('span', class_="btn-price")]
-                newArr = [] #array with just prices
+                array = soup.findAll('span', class_="btn-price")
                 for i in array:
-                    pattern = re.compile(r'\-?\d+\.\d+')
-                    diffPrices = list(map(float, re.findall(pattern, i)))
-                    newArr.append(str(diffPrices))
-                            
-                print(array)
-                print(newArr)
-                p1 = newArr[0]
-                p1 = p1[1:]
-                p1 = p1[:-1]
-                p2 = newArr[1]
-                p2 = p2[1:]
-                p2 = p2[:-1]
-                p1 = float(p1)
-                p2 = float(p2)
+                    prices.append(i.get_text())
+                #print(prices[1])
+                #await interaction.response.send_message(f"[{url}")
                 
-                await interaction.response.send_message(f"[Non-foil price]: ${"%.2f" % p1},   €{"%.2f" % (p1*(0.92))}\n[Foil price]: ${"%.2f" % p2},   €{"%.2f" % (p2*(0.92))} \n {url}")
+                p1 = prices[0]
+                p2 = prices[1]
+                eurp1 = float(p1[1:])
+                eurp2 = float(p2[1:])
+                await interaction.response.send_message(f"[Non-foil price]: {p1}, €{"%.2f" % (eurp1 * 0.92)}\n[Foil price]: {p2}, € { "%.2f" % (eurp2 * 0.92)}\n {url}")
         
         await results(foundName)
     else:
